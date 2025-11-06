@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import TestController from "./models/test.controller";
 
+=======
+import TestController from "./modules/test/test.controller";
+>>>>>>> a8cb529 (Jenkins and Docker)
 
 function App() {
   return (
@@ -24,7 +28,11 @@ function App() {
       <div className="container mt-5">
         <h2>inicio</h2>
         <hr />
+<<<<<<< HEAD
         <button onClick={() => TestController.callToAPI()} className="btn btn-success">LLamar a mi API</button>
+=======
+        <button className="btn btn-success" onClick={() => TestController.callToAPI()}>LLamar a mi API</button>
+>>>>>>> a8cb529 (Jenkins and Docker)
       </div>
     </>
   );
