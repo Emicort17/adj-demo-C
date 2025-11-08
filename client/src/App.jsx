@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-import TestController from "./models/test.controller";
-
-=======
 import TestController from "./modules/test/test.controller";
->>>>>>> a8cb529 (Jenkins and Docker)
+
 
 function App() {
   return (
